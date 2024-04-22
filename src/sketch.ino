@@ -1,8 +1,9 @@
-int weapon_ammo = $DEFAULT_AMMO
 #include <variables.h>
 #include <config.h>
 #include <Mouse.h>
 #include <Keyboard.h>
+
+int weapon_ammo = $DEFAULT_AMMO;
 
 void setup() {
   Mouse.begin();
