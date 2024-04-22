@@ -13,7 +13,14 @@
 
 ## Config
 
-This is a list for all available config options
+```ino
+set(int id, String value)
+```
+
+> [!NOTE]
+> Once the Arduino is turned off the default configuration is restored
+
+With the code snippet above the following variables can be changed
 
 | id | variable |
 | --- | --- |
