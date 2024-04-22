@@ -3,8 +3,6 @@
 #include <Mouse.h>
 #include <Keyboard.h>
 
-int weapon_ammo = $DEFAULT_AMMO;
-
 void setup() {
   Mouse.begin();
   Keyboard.begin();
