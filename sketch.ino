@@ -7,5 +7,6 @@ void setup() {
 }
 
 void loop() {
-  mouse_lock();
+  Serial.print("Advanced Game Contol v$APP_VERSION");
+  
 }
