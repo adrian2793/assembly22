@@ -4,7 +4,6 @@
 > For educational purposes only
 
 > [!TIP]
-> Upload the code, insert the Arduino into your PC and play
 > There's no chance of getting banned when using it correctly
 
 **Features**
