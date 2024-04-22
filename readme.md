@@ -3,7 +3,7 @@
 > [!NOTE]
 > For educational purposes only
 
-### Features
+**Features**
 
 - Recoil Control System
 
