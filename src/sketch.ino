@@ -10,7 +10,7 @@ void setup() {
 
 void loop() {
   x = 0;
-  Serial.print("$APP_NAME $APP_VERSION");
+  Serial.print("Advanced Game Control");
 }
 
 int mouse_trigger() {
