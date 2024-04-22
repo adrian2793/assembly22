@@ -26,7 +26,7 @@ set(int id, String value)
 ```
 
 > [!NOTE]
-> Once the Arduino is turned off the default configuration is restored
+> Once the Arduino is turned off the default configuration will be restored
 
 With the code snippet above the following variables can be changed
 
