@@ -1,5 +1,5 @@
 #include <variables.h>
 
 int set(String id) {
-  int id = str(int(id));
+  int config_ = str(int(id));
 }
