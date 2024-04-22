@@ -1,6 +1,7 @@
 #define $APP_NAME "Advanced Game Control"
 #define $APP_VERSION "v0.1.7"
 #define $DEFAULT_AMMO 25
+#define $AMMO 25
 #include <Mouse.h>
 #include <Keyboard.h>
 
@@ -15,6 +16,8 @@ void loop() {
 }
 
 mouse_trigger() {
-  for (x = 0; i < -1; i = i + x) {
+  for (int i = 0; i > -1; i = i + x) {
+    if (i == $DEFAULT_AMMO) {
+      i = 0;
   }
 }
