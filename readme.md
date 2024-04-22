@@ -3,6 +3,10 @@
 > [!NOTE]
 > For educational purposes only
 
+> [!TIP]
+> Upload the code, insert into PC and enjoy it
+> There's no chance of getting banned when using it correctly
+
 **Features**
 
 - Recoil Control System
