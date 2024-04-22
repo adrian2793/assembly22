@@ -12,8 +12,6 @@
 
 ## Get Started
 
-### First time
-
 1. Download and extract the code
 2. Open `sketch.ino` in your editor
 3. Upload the program to the Arduino
