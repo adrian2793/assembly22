@@ -37,4 +37,6 @@ With the code snippet above the following variables can be changed
 | `2` | `aim_y` |
 | `3` | `aim_wheel` |
 
-- `weapon_ammo` It is recommended to set this parameter to the ammo of the current weapon
+- `weapon_ammo`
+> [!TIP]
+> Set this parameter to the ammo of the current weapon
