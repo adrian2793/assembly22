@@ -41,3 +41,12 @@ With the code snippet above the following variables can be changed
 
 > [!TIP]
 > Set this parameter to the ammo of the current weapon
+
+`aim_x`
+
+> [!TIP]
+> This parameters uses predictions and changes the value when needed
+
+`aim_y`
+
+`aim_wheel`
