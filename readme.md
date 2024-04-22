@@ -36,3 +36,5 @@ With the code snippet above the following variables can be changed
 | `1` | `aim_x` |
 | `2` | `aim_y` |
 | `3` | `aim_wheel` |
+
+- `weapon_ammo` It is recommended to set this parameter to the ammo of the current weapon
