@@ -10,6 +10,17 @@
 
 - Recoil Control System
 
+## Get Started
+
+### First time
+
+1. Download the code
+2. Open `sketch.ino` in your editor
+3. Upload the program and insert the Arduino
+
+> [!TIP]
+> Once the code is uploaded the Arduino can be inserted into any supported device
+
 ## Config
 
 ```ino
