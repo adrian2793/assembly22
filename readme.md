@@ -14,7 +14,7 @@
 ## Config
 
 ```ino
-set(int id, String value)
+set(int id, string value)
 ```
 
 > [!NOTE]
