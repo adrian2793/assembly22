@@ -14,12 +14,12 @@
 
 ### First time
 
-1. Download the code
+1. Download and extract the code
 2. Open `sketch.ino` in your editor
-3. Upload the program and insert the Arduino
+3. Upload the program to the Arduino
 
 > [!TIP]
-> Once the code is uploaded the Arduino can be inserted into any supported device
+> Once the code is uploaded the Arduino can be connected to any supported device
 
 ## Config
 
