@@ -1,3 +1,4 @@
+#define $APP_VERSION v0.1.7
 #include <Mouse.h>
 #include <Keyboard.h>
 
