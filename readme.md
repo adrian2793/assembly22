@@ -9,7 +9,6 @@
 **Features**
 
 - Recoil Control System
-- Saved Console Commands List
 
 ## Config
 
