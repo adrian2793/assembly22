@@ -45,7 +45,7 @@ With the code snippet above the following variables can be changed
 `aim_x`
 
 > [!TIP]
-> This parameters uses predictions to change the value
+> This parameters uses predictions and shouldn't be changed
 
 `aim_y`
 
