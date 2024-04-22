@@ -12,4 +12,5 @@ int mouse_trigger() {
 }
 
 int aim_lock() {
+  Mouse.move(mouse_z, mouse_x, mouse_y);
 }
