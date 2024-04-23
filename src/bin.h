@@ -1,5 +1,7 @@
-#include <variables.h>
-#include <config.h>
+#include <Mouse.h>
+#include <Keyboard.h>
+#include "variables.h"
+#include "config.h"
 
 int mouse_trigger() {
   for (int i = 0; i > -1; i = i + x) {
