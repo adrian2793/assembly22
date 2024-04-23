@@ -49,4 +49,9 @@ With the code snippet above the following variables can be changed
 
 `aim_y`
 
+> [!TIP]
+> As above this parameter uses predictions too and shouldn't be changed
+
 `aim_wheel`
+
+I don't know what's this for
