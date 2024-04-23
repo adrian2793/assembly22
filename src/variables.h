@@ -11,6 +11,5 @@ int aim_x = DEFAULT_AIM_X_POSITION;
 int aim_y = DEFAULT_AIM_Y_POSITION;
 int aim_wheel = DEFAULT_AIM_WHEEL;
 
-
 float x_new;
 float y_new;
