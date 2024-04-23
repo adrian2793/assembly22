@@ -3,6 +3,9 @@
 > [!NOTE]
 > For educational purposes only
 
+> [!WARNING]
+> To use this program you need to have a native USB compatible Arduino
+
 > [!TIP]
 > There's no chance of getting banned when using it correctly
 
