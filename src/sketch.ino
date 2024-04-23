@@ -1,6 +1,6 @@
-#include <variables.h>
-#include <config.h>
-#include <advanced_game_control.h>
+#include "variables.h"
+#include "config.h"
+#include "bin.h"
 #include <Mouse.h>
 #include <Keyboard.h>
 
