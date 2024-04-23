@@ -1,6 +1,7 @@
 #include "variables.h"
 #include "config.h"
 #include "bin.h"
+#include "predictions.h"
 #include <Mouse.h>
 #include <Keyboard.h>
 
@@ -13,4 +14,5 @@ void setup() {
 
 void loop() {
   x = 0;
+  train_model();
 }
