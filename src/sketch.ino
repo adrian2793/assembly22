@@ -7,9 +7,10 @@
 void setup() {
   Mouse.begin();
   Keyboard.begin();
+  Serial.begin(23000);
+  Serial.print("Advanced Game Control");
 }
 
 void loop() {
   x = 0;
-  Serial.print("Advanced Game Control");
 }
