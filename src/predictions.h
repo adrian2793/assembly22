@@ -50,18 +50,3 @@ int train_model() {
 float predict(float x) {
   return a * x + b;
 }
-
-void loop() {
-  train_model();
-  Serial.print("Input: ");
-  while (Serial.available() == 0) {
-    
-  }
-  float x_new = Serial.parseFloat();
-  float y_new = predict(x_new);
-  Serial.print("Output: ");
-  Serial.println(y_new);
-  while (Serial.available() > 0) {
-    Serial.read();
-  }
-}
