@@ -1,7 +1,6 @@
 #include <Mouse.h>
 #include <Keyboard.h>
 #include "variables.h"
-// #include "config.h"
 // #include "predictions.h"
 
 int mouse_trigger() {
