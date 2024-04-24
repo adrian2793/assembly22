@@ -1,5 +1,4 @@
 #include "variables.h"
-// #include "config.h"
 #include "bin.h"
 #include "predictions.h"
 #include <Mouse.h>
