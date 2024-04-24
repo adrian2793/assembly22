@@ -8,11 +8,15 @@ void config(String input) {
   switch (input) {
     case "aim_support 1":
       Serial.println("> aim_support 1");
+      input = Serial.parseString();
+      mouse_trigger = true;
+      break;
     case "weapon_ammo":
       Serial.println("> weapon_ammo");
       delay(startup_delay);
       input = Serial.parseInt();
       weapon_ammo = input;
+      break;
   }
 }
 
