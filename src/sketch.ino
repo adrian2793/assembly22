@@ -12,9 +12,9 @@ void setup() {
   Serial.println("NanoAim 0.0.9");
   while (Serial.available() == 0) { 
   }
-  Serial.println("> startup_delay = 30.000");
-  delay(30000);
-  String input = Serial.parseString();
+  Serial.println("> startup_delay = 20.000");
+  delay(startup_delay);
+  input = Serial.parseString();
 }
 
 void loop() {
