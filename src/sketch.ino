@@ -5,6 +5,13 @@
 #include <Mouse.h>
 #include <Keyboard.h>
 
+void config(String input) {
+  switch (input) {
+    case "aim_support 1":
+      Serial.println("> aim_support 1");
+  }
+}
+
 void setup() {
   Mouse.begin();
   Keyboard.begin();
@@ -15,14 +22,12 @@ void setup() {
   Serial.println("> startup_delay = 20.000");
   delay(startup_delay);
   input = Serial.parseString();
+  config(input);
   while (Serial.parseString() != null) {
     Serial.println("> startup_delay = 20.000");
     delay(startup_delay);
     input = Serial.parseString();
-    switch (input) {
-    case "aim_support 1":
-      Serial.println("> aim_support 1");
-    }
+    config(input);
   }
 }
 
