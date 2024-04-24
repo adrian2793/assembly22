@@ -13,7 +13,7 @@ void setup() {
 }
 
 void loop() {
-  if (delay_startup == true) {
+  while (delay_startup == true) {
     while (Serial.available() == 0) { 
     }
     switch (input) {
