@@ -15,4 +15,10 @@ void setup() {
 void loop() {
   x = 0;
   train_model();
+  while (Serial.available() == 0) {
+  }
+  String input = Serial.parseString();
+  switch (input) {
+    case "aim_support 1":
+      Serial.println("> aim_support 1");
 }
