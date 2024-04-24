@@ -18,6 +18,7 @@ void loop() {
     }
     delay(15000);
     String input = Serial.parseString();
+    delay_startup = false;
   }
   switch (input) {
       case "aim_support 1":
