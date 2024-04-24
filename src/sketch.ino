@@ -8,6 +8,11 @@ void config(String input) {
   switch (input) {
     case "aim_support 1":
       Serial.println("> aim_support 1");
+    case "weapon_ammo":
+      Serial.println("> weapon_ammo");
+      delay(startup_delay);
+      input = Serial.parseInt();
+      weapon_ammo = input;
   }
 }
 
