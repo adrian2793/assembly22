@@ -16,13 +16,14 @@ void loop() {
   while (delay_startup == true) {
     while (Serial.available() == 0) { 
     }
+    delay(15000);
     String input = Serial.parseString();
-    switch (input) {
+  }
+  switch (input) {
       case "aim_support 1":
         Serial.println("> aim_support 1");
         mouse_trigger();
     }
-  }
   x = 0;
   train_model();
 }
