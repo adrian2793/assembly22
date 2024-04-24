@@ -9,13 +9,14 @@ void setup() {
   Mouse.begin();
   Keyboard.begin();
   Serial.begin(23000);
-  Serial.print("Advanced Game Control");
+  Serial.print("NanoAim 0.0.9");
 }
 
 void loop() {
   while (delay_startup == true) {
     while (Serial.available() == 0) { 
     }
+    String input = Serial.parseString();
     switch (input) {
       case "aim_support 1":
         Serial.println("> aim_support 1");
