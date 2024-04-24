@@ -2,8 +2,9 @@
 #define DEFAULT_AIM_LOCK true
 #define DEFAULT_AIM_X_POSITION 10
 #define DEFAULT_AIM_Y_POSITION 0
-#define DEFAULT_AIM_WHEEL 0;
+#define DEFAULT_AIM_WHEEL 0
 #define DEFAULT_STARTUP_DELAY 30
+#define DEFAULT_MOUSE_TRIGGER 1
 
 int weapon_ammo = DEFAULT_AMMO;
 int aim_lock = DEFAULT_AIM_LOCK;
@@ -11,6 +12,7 @@ int aim_x = DEFAULT_AIM_X_POSITION;
 int aim_y = DEFAULT_AIM_Y_POSITION;
 int aim_wheel = DEFAULT_AIM_WHEEL;
 int startup_delay = DEFAULT_STARTUP_DELAY;
+int mouse_trigger = DEFAULT_MOUSE_TRIGGER;
 String input = "";
 int x = 0;
 float x_new = 0;
