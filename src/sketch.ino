@@ -13,7 +13,8 @@ void config(String input) {
       break;
     case "weapon_ammo":
       Serial.println("> weapon_ammo");
-      delay(startup_delay);
+      while (Serial.available() == 0) { 
+      }
       input = Serial.parseInt();
       weapon_ammo = input;
       break;
