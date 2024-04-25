@@ -24,7 +24,7 @@ void setup() {
   Mouse.begin();
   Keyboard.begin();
   Serial.begin(23000);
-  Serial.println("NanoAim 0.0.9");
+  Serial.println("NanoAim 0.1.2");
   while (Serial.available() == 0) { 
   }
   Serial.println("> startup_delay = 20.000");
@@ -32,8 +32,9 @@ void setup() {
   input = Serial.parseString();
   config(input);
   while (Serial.parseString() != null) {
-    Serial.println("> startup_delay = 20.000");
-    delay(startup_delay);
+    while (Serial.available() == 0) { 
+    }   
+    Serial.println(">");
     input = Serial.parseString();
     config(input);
   }
