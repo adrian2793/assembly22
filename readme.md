@@ -29,14 +29,11 @@ After upload configuration commands can be entered within 20 seconds
 > [!NOTE]
 > Once the Arduino is turned off the default configuration will be restored
 
-The following variables can be changed
 
-| variable | command |
+| command | description |
 | --- | --- |
-| `weapon_ammo` | `weapon_ammo` |
-| `aim_x` | `aim_x` |
-| `aim_y` | `aim_y` |
-| `aim_wheel` | `aim_wheel` |
+| `weapon_ammo` | Sets `weapon_ammo` |
+| `aim_support` | Clicks as many times as `weapon_ammo` is set to when the mouse is pressed
 
 `weapon_ammo`
 
