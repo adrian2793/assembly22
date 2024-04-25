@@ -1,4 +1,4 @@
-# Advanced Game Control for Counterstrike
+# NanoAim for Counterstrike
 
 > [!NOTE]
 > For educational purposes only
