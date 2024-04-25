@@ -24,21 +24,19 @@
 
 ## Config
 
-```ino
-set(int id, String value)
-```
+After upload configuration commands can be entered within 20 seconds
 
 > [!NOTE]
 > Once the Arduino is turned off the default configuration will be restored
 
-With the code snippet above the following variables can be changed
+The following variables can be changed
 
-| id | variable |
+| variable | command |
 | --- | --- |
-| `0` | `weapon_ammo` |
-| `1` | `aim_x` |
-| `2` | `aim_y` |
-| `3` | `aim_wheel` |
+| `weapon_ammo` | `weapon_ammo` |
+| `aim_x` | `aim_x` |
+| `aim_y` | `aim_y` |
+| `aim_wheel` | `aim_wheel` |
 
 `weapon_ammo`
 
