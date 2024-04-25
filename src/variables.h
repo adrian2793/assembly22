@@ -28,3 +28,19 @@ void set_int(String variable, int value) {
       break();
   }
 }
+
+void set_bool(String variable, bool value) {
+  switch (variable) {
+    case "mouse_trigger":
+      mouse_trigger = value;
+      break();
+  }
+}
+
+void set_string(String variable, String value) {
+  switch (variable) {
+    case "input":
+      input = value;
+      break();
+  }
+}
