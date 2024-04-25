@@ -17,3 +17,14 @@ String input = "";
 int x = 0;
 float x_new = 0;
 float y_new = 0;
+
+void set_int(String variable, int value) {
+  switch (variable) {
+    case "input":
+      input = value;
+      break();
+    case "weapon_ammo":
+      weapon_ammo = value;
+      break();
+  }
+}
