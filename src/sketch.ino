@@ -17,6 +17,7 @@ void config(String input) {
       }
       input = Serial.parseInt();
       weapon_ammo = input;
+      Serial.println("> weapon_ammo = " + weapon_ammo);
       break;
   }
 }
