@@ -8,16 +8,16 @@ void config(String input) {
   switch (input) {
     case "aim_support 1":
       Serial.println("> aim_support 1");
-      input = Serial.parseString();
-      mouse_trigger = true;
+      set_string(input, Serial.parseString());
+      set_bool("mouse_trigger", true);
       break;
     case "weapon_ammo":
       Serial.println("> weapon_ammo");
       while (Serial.available() == 0) { 
       }
-      set_var("input", Serial.parseInt());
-      set_var("weapon_ammo", input);
-      Serial.println("> weapon_ammo = " + get_var(weapon_ammo));
+      set_int("input", Serial.parseInt());
+      set_int("weapon_ammo", input);
+      Serial.println("> weapon_ammo = " + weapon_ammo);
       break;
   }
 }
@@ -31,15 +31,13 @@ void setup() {
   }
   Serial.println("> startup_delay = 20.000");
   delay(startup_delay);
-  input = Serial.parseString();
+  set_string("input", Serial.parseString());
   config(input);
-  while (Serial.parseString() != null) {
-    while (Serial.available() == 0) { 
-    }   
-    Serial.println(">");
-
-    input = Serial.parseString();
-    config(input);
+  while (Serial.available() == 0) { 
+  }   
+  Serial.println(">");
+  set_string(input, Serial.parseString());
+  config(input);
   }
 }
 
