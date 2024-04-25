@@ -1,63 +1,42 @@
-#define DEFAULT_AMMO 25
-#define DEFAULT_AIM_LOCK true
-#define DEFAULT_MOUSE_TRIGGER false
-#define DEFAULT_AIM_X_POSITION 10
-#define DEFAULT_AIM_Y_POSITION 0
-#define DEFAULT_AIM_WHEEL 0
-#define DEFAULT_STARTUP_DELAY 20
-
-int weapon_ammo = DEFAULT_AMMO;
-bool aim_lock = DEFAULT_AIM_LOCK;
-bool mouse_trigger = DEFAULT_MOUSE_TRIGGER;
-int aim_x = DEFAULT_AIM_X_POSITION;
-int aim_y = DEFAULT_AIM_Y_POSITION;
-int aim_wheel = DEFAULT_AIM_WHEEL;
-int startup_delay = DEFAULT_STARTUP_DELAY;
-String input = "";
+int weapon_ammo = 25;
+bool aim_lock = true;
+bool mouse_trigger_bool = false;
+int aim_x = 10;
+int aim_y = 0;
+int aim_wheel = 0;
+int startup_delay = 20;
+String string_input = "";
+int int_input = 0;
 int x = 0;
 float x_new = 0;
 float y_new = 0;
 
-String get_var(String variable) {
-  switch (variable) {
-    case "weapon_ammo":
-      return String(weapon_ammo);
-      break();
-    case "aim_lock":
-      return String(aim_lock);
-      break();
-    case "mouse_trigger":
-      return String(mouse_trigger);
-      break();
-    case "aim_x":
-      return String(aim_x);
-      break();
+bool set_int(int id1, int value1) {
+  switch (id1) {
+    case 0: // int_input
+      int_input = value1;
+      return true;
+    case 1: // weapon_ammo
+      weapon_ammo = value1;
+      return true;
   }
+  return false;
 }
 
-void set_int(String variable, int value) {
-  switch (variable) {
-    case "input":
-      input = value;
-      break();
-    case "weapon_ammo":
-      weapon_ammo = value;
-      break();
+bool set_bool(int id2, bool value2) {
+  switch (id2) {
+    case 0: // mouse_trigger_bool
+      mouse_trigger_bool = value2;
+      return true;
   }
+  return false;
 }
 
-void set_bool(String variable, bool value) {
-  switch (variable) {
-    case "mouse_trigger":
-      mouse_trigger = value;
-      break();
+bool set_string(int id3, String value3) {
+  switch (id3) {
+    case 0: // string_input
+      string_input = value3;
+      return true;
   }
-}
-
-void set_string(String variable, String value) {
-  switch (variable) {
-    case "input":
-      input = value;
-      break();
-  }
+  return false;
 }

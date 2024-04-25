@@ -3,10 +3,10 @@
 #include "variables.h"
 // #include "predictions.h"
 
-int mouse_trigger() {
+bool mouse_trigger() {
   for (int i = 0; i > -1; i = i + x) {
     Mouse.click();
-    if (i == get_var("weapon_ammo")) {
+    if (i == weapon_ammo) {
       i = 0;
     }
   }
