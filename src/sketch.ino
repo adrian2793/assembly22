@@ -42,4 +42,7 @@ void setup() {
 void loop() {
   x = 0;
   train_model();
+  if (mouse_trigger == true) {
+    mouse_trigger();
+  }
 }
