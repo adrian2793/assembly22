@@ -8,7 +8,7 @@ void config(String input) {
   switch (input) {
     case "aim_support 1":
       Serial.println("> aim_support 1");
-      set_string(input, Serial.parseString());
+      set_string("input", Serial.parseString());
       set_bool("mouse_trigger", true);
       break;
     case "weapon_ammo":
@@ -36,7 +36,7 @@ void setup() {
   while (Serial.available() == 0) { 
   }   
   Serial.println(">");
-  set_string(input, Serial.parseString());
+  set_string("input", Serial.parseString());
   config(input);
   }
 }
