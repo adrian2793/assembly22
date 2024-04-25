@@ -15,9 +15,9 @@ void config(String input) {
       Serial.println("> weapon_ammo");
       while (Serial.available() == 0) { 
       }
-      input = Serial.parseInt();
-      weapon_ammo = input;
-      Serial.println("> weapon_ammo = " + weapon_ammo);
+      set_var("input", Serial.parseInt());
+      set_var("weapon_ammo", input);
+      Serial.println("> weapon_ammo = " + get_var(weapon_ammo));
       break;
   }
 }
@@ -36,7 +36,8 @@ void setup() {
   while (Serial.parseString() != null) {
     while (Serial.available() == 0) { 
     }   
-    Serial.println(">");
+    Serial.println(">");
+
     input = Serial.parseString();
     config(input);
   }
