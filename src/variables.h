@@ -1,25 +1,38 @@
 #define DEFAULT_AMMO 25
 #define DEFAULT_AIM_LOCK true
+#define DEFAULT_MOUSE_TRIGGER false
 #define DEFAULT_AIM_X_POSITION 10
 #define DEFAULT_AIM_Y_POSITION 0
 #define DEFAULT_AIM_WHEEL 0
-#define DEFAULT_STARTUP_DELAY 30
-#define DEFAULT_MOUSE_TRIGGER false
+#define DEFAULT_STARTUP_DELAY 20
 
 int weapon_ammo = DEFAULT_AMMO;
-int aim_lock = DEFAULT_AIM_LOCK;
+bool aim_lock = DEFAULT_AIM_LOCK;
+bool mouse_trigger = DEFAULT_MOUSE_TRIGGER;
 int aim_x = DEFAULT_AIM_X_POSITION;
 int aim_y = DEFAULT_AIM_Y_POSITION;
 int aim_wheel = DEFAULT_AIM_WHEEL;
 int startup_delay = DEFAULT_STARTUP_DELAY;
-bool mouse_trigger = DEFAULT_MOUSE_TRIGGER;
 String input = "";
 int x = 0;
 float x_new = 0;
 float y_new = 0;
 
-int get_var(value) {
-  return value;
+String get_var(String variable) {
+  switch (variable) {
+    case "weapon_ammo":
+      return String(weapon_ammo);
+      break();
+    case "aim_lock":
+      return String(aim_lock);
+      break();
+    case "mouse_trigger":
+      return String(mouse_trigger);
+      break();
+    case "aim_x":
+      return String(aim_x);
+      break();
+  }
 }
 
 void set_int(String variable, int value) {
