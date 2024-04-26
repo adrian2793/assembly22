@@ -49,7 +49,7 @@ void setup() {
   Mouse.begin();
   Keyboard.begin();
   Serial.begin(23000);
-  Serial.println("NanoAim 0.1.2");
+  Serial.println("NanoAim " + app_version);
   while (Serial.available() == 0) { 
   }
   Serial.println("> startup_delay = 20.000");
