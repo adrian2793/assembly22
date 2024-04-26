@@ -4,6 +4,28 @@
 #include <Mouse.h>
 #include <Keyboard.h>
 
+ifndef variables_h
+#define variables_h
+
+extern int weapon_ammo;
+extern bool aim_lock;
+extern bool mouse_trigger_bool;
+extern int aim_x;
+extern int aim_y;
+extern int aim_wheel;
+extern int startup_delay;
+extern String string_input;
+extern int int_input;
+extern int x;
+extern float x_new;
+extern float y_new;
+
+bool set_int(int id1, int value1);
+bool set_bool(int id2, bool value2);
+bool set_string(int id3, String value3);
+
+#endif
+
 void set_config(int input) {
   switch (input) {
     case 0: // aim_support 1
