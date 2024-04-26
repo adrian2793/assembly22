@@ -1,3 +1,4 @@
+String app_version = "0.1.6";
 int weapon_ammo = 25;
 bool aim_lock = true;
 bool mouse_trigger_bool = true;
