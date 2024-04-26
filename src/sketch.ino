@@ -4,7 +4,7 @@
 #include <Mouse.h>
 #include <Keyboard.h>
 
-ifndef variables_h
+#ifndef variables_h
 #define variables_h
 
 extern int weapon_ammo;
