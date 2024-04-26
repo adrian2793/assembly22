@@ -1,6 +1,6 @@
 int weapon_ammo = 25;
 bool aim_lock = true;
-bool mouse_trigger_bool = false;
+bool mouse_trigger_bool = true;
 int aim_x = 10;
 int aim_y = 0;
 int aim_wheel = 0;
