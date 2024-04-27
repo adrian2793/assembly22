@@ -1,16 +1,8 @@
 String app_version = "0.1.9";
-int weapon_ammo = 25;
-bool aim_lock = true;
-bool mouse_trigger_bool = true;
-int aim_x = 10;
-int aim_y = 0;
-int aim_wheel = 0;
-int startup_delay = 20;
-String string_input = "";
-int int_input = 0;
-int x = 0;
-float x_new = 0;
-float y_new = 0;
+
+bool _172701 = true;
+
+// Functions
 
 bool set_int(int id1, int value1) {
   switch (id1) {
