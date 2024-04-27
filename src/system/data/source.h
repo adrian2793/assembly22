@@ -14,7 +14,7 @@ weapon dual_berettas(9, 30, 17, 27, 4, 20);
 
 // Players
 
-// team = 0 -> Terrorists
+// Terrorists
 
 player player1(0, 0, 0);
 player player2(0, 0, 0);
@@ -22,7 +22,7 @@ player player3(0, 0, 0);
 player player4(0, 0, 0);
 player player5(0, 0, 0);
 
-// team = 1 -> Counter Terrorists
+// Counter Terrorists
 
 player player6(0, 0, 0, 1);
 player player7(0, 0, 0, 1);
@@ -31,5 +31,3 @@ player player9(0, 0, 0, 1);
 player player10(0, 0, 0, 1);
 
 // Maps
-
-map de_mirage();
