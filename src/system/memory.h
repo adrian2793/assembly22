@@ -2,16 +2,14 @@
 
 include "recoil.h"
 
-// Recoil
+// System
 
-const bool _0271 = true; // Recoil
-const int _0271_smoothness = 1;
+class object {
+  public:
+    int variance;
+    int angle_variance;
+    bool smoothness(
+}
 
-// Trigger
-
-const bool _0272 = true; // Trigger
-const bool _0272_delay = true;
-
-// Aim
-
-const bool _0273 = true; // Aim
+bool smoothness::smoothness(int) {
+}
