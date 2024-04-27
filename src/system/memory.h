@@ -18,3 +18,13 @@ class player {
     int team = 0; // 0 -> Counter Terrorists
     bool visible = false;
 }
+
+class map {
+  public:
+    int spawn_positions_t_x;
+    int spawn_positions_t_y;
+    int spawn_positions_t_z;
+    int spawn_positions_ct_x;
+    int spawn_positions_ct_y;
+    int spawn_positions_ct_z;
+}
