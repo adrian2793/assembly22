@@ -27,7 +27,7 @@ bool set_string(int id3, String value3);
 
 void set_config(int input) {
   switch (input) {
-    case 0: // aim_support 1
+    case 0: // aim_support
       Serial.println("> aim_support");
       while (Serial.available() == 0) {
       }
