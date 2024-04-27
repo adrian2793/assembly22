@@ -20,8 +20,8 @@ player::player(int position_x, int position_y, int position_z, int team = 0, boo
 
 class map {
   public:
-    map(int spawn_positions_t_x, int spawn_positions_t_y, int spawn_positions_t_z, int spawn_positions_ct_x, int spawn_positions_ct_y, int spawn_positions_ct_z);
+    map(int position_marks_x, int position_marks_y, int position_marks_z);
 }
 
-map::map(int spawn_positions_t_x, int spawn_positions_t_y, int spawn_positions_t_z, int spawn_positions_ct_x, int spawn_positions_ct_y, int spawn_positions_ct_z) {
+map::map(int position_marks_x, int position_marks_y, int position_marks_z) {
 }
