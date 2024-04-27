@@ -1,5 +1,7 @@
 // System
 
+// Weapon
+
 class weapon {
   public:
     weapon(int inaccuracy, int ammunition, int damage, int recoil_amount, int recoil_variance, int recoil_angle_variance, int smoothness = 0);
@@ -10,6 +12,8 @@ weapon::weapon(int inaccuracy, int ammunition, int damage, int recoil_amount, in
   this->smoothness = recoil_amount / recoil_angle_variance;
 }
 
+// Player
+
 class player {
   public:
     player(int position_x, int position_y, int position_z, int team = 0, bool visible = false);
@@ -17,6 +21,8 @@ class player {
 
 player::player(int position_x, int position_y, int position_z, int team = 0, bool visible = false) {
 }
+
+// Map
 
 class map {
   public:
