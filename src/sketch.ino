@@ -5,6 +5,9 @@
 // NanoAim
 
 #include "bin.h"
+
+// Libraries
+
 #include <Mouse.h>
 #include <Keyboard.h>
 
