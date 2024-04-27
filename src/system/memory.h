@@ -1,7 +1,3 @@
-// Data
-
-include "recoil.h"
-
 // System
 
 class object {
