@@ -12,19 +12,16 @@ weapon::weapon(int inaccuracy, int ammunition, int damage, int recoil_amount, in
 
 class player {
   public:
-    int position_x; // Default -> 0
-    int position_y; // Default -> 0
-    int position_z; // Default -> 0
-    int team = 0; // 0 -> Counter Terrorists
-    bool visible = false;
+    player(int position_x, int position_y, int position_z, int team = 0, bool visible = false);
+}
+
+player::player(int position_x, int position_y, int position_z, int team = 0, bool visible = false) {
 }
 
 class map {
   public:
-    int spawn_positions_t_x;
-    int spawn_positions_t_y;
-    int spawn_positions_t_z;
-    int spawn_positions_ct_x;
-    int spawn_positions_ct_y;
-    int spawn_positions_ct_z;
+    map(int spawn_positions_t_x, int spawn_positions_t_y, int spawn_positions_t_z, int spawn_positions_ct_x, int spawn_positions_ct_y, int spawn_positions_ct_z);
+}
+
+map::map(int spawn_positions_t_x, int spawn_positions_t_y, int spawn_positions_t_z, int spawn_positions_ct_x, int spawn_positions_ct_y, int spawn_positions_ct_z) {
 }
