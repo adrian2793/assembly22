@@ -1,7 +1,17 @@
+// System
+
+#include "memory.h"
+
+// NanoAim
+
+#include "variables.h"
+
+// Libraries
+
 #include <Mouse.h>
 #include <Keyboard.h>
-#include "variables.h"
-// #include "predictions.h"
+
+// Variables
 
 #ifndef variables_h
 #define variables_h
