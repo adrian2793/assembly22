@@ -11,6 +11,8 @@
 #include <Mouse.h>
 #include <Keyboard.h>
 
+// Variables
+
 #ifndef variables_h
 #define variables_h
 
