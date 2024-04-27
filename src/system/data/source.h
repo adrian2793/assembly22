@@ -6,5 +6,6 @@
 
 #include "memory.h"
 
-weapon desert_eagle(85.2, 7, 188, 48.2, 18, 60);
-weapon r8_revolver(8.1, 8, 312, 20, 0, 40);
+weapon desert_eagle(6.2, 7, 42, 48.2, 18, 60);
+weapon r8_revolver(2.5, 8, 75, 20, 0, 40);
+weapon dual_berettas(9, 30, 17, 27, 4, 20);
