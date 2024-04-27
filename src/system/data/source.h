@@ -31,3 +31,5 @@ player player9(0, 0, 0, 1);
 player player10(0, 0, 0, 1);
 
 // Maps
+
+map de_mirage();
