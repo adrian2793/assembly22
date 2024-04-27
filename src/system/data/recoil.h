@@ -7,9 +7,11 @@ const int desert_eagle_ammunition = 7;
 const int desert_eagle_damage = 294 / desert_eagle_ammunition;
 const int desert_eagle_recoil_amount = 48.2;
 const int desert_eagle_recoil_accuracy = 18;
+const int desert_eagle_recoil_angle_accuracy = 60;
 
 const int r8_revolver_inaccuracy = 8.1;
 const int r8_revolver_ammunition = 8;
 const int r8_revolver_damage = 600 / r8_revolver_ammunition;
-const int r8_revolver_recoil_amount = 0;
+const int r8_revolver_recoil_amount = 20;
 const int r8_revolver_recoil_accuracy = 0;
+const int r8_revolver_recoil_angle_accuracy = 40;
