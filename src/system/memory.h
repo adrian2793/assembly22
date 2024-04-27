@@ -9,7 +9,7 @@ class object {
     const int recoil_variance;
     const int recoil_angle_variance;
     int smoothness;
-    int get_smoothness(
+    int get_smoothness();
 }
 
 int object::get_smoothness() {
