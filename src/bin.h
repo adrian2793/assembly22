@@ -35,9 +35,9 @@ bool mouse_trigger() {
   return true;
 }
 
-// int aim_lock() {
-//  Mouse.move(get_var("aim_x"), get_var("aim_y"), get_var("aim_wheel"));
-//  set_int("x_new", get_var("aim_x"));
-//  set_int("y_new", predict(get_var("x_new"));
+// bool aim_lock() {
+//  Mouse.move(aim_x, aim_y, aim_wheel);
+//  set_int("x_new", aim_x);
+//  set_int("y_new", predict(x_new);
 //  return true;
 //  }
