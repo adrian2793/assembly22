@@ -1,6 +1,6 @@
 // System
 
-class object {
+class weapon {
   public:
     int inaccuracy;
     int ammunition;
