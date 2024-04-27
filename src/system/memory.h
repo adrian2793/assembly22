@@ -2,13 +2,13 @@
 
 class object {
   public:
-    const int inaccuracy;
-    const int ammunition;
-    const int damage;
-    const int recoil_amount;
-    const int recoil_variance;
-    const int recoil_angle_variance;
-    int smoothness;
+    int inaccuracy;
+    int ammunition;
+    int damage;
+    int recoil_amount;
+    int recoil_variance;
+    int recoil_angle_variance;
+    int smoothness = 0;
     int get_smoothness();
 }
 
