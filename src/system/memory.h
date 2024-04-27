@@ -1,13 +1,17 @@
-// recoil
+// Data
 
-const bool _0271 = true; // recoil
+include "recoil.h"
+
+// Recoil
+
+const bool _0271 = true; // Recoil
 const int _0271_smoothness = 1;
 
-// trigger
+// Trigger
 
-const bool _0272 = true; // trigger
+const bool _0272 = true; // Trigger
 const bool _0272_delay = true;
 
-// aim
+// Aim
 
-const bool _0273 = true; // aim
+const bool _0273 = true; // Aim
