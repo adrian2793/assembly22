@@ -41,6 +41,7 @@ bool mouse_trigger() {
     if (i == weapon_ammo) {
       i = 0;
     }
+    delay(100);
   }
   return true;
 }
