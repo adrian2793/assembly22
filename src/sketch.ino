@@ -35,42 +35,11 @@ bool set_string(int id3, String value3);
 
 #endif
 
-void set_config(int input) {
-  switch (input) {
-    case 0: // aim_support
-      Serial.println("> aim_support");
-      while (Serial.available() == 0) {
-      }
-      set_int("int_input", Serial.parseInt());
-      set_bool("mouse_trigger_bool", int_input);
-      break;
-    case 1: // weapon_ammo
-      Serial.println("> weapon_ammo");
-      while (Serial.available() == 0) { 
-      }
-      set_int("int_input", Serial.parseInt());
-      set_int("weapon_ammo", int_input);
-      Serial.println("> weapon_ammo = " + weapon_ammo);
-      break;
-  }
-}
-
 void setup() {
   Mouse.begin();
   Keyboard.begin();
-  Serial.begin(23000);
-  Serial.println("NanoAim " + app_version);
-  while (Serial.available() == 0) { 
-  }
-  Serial.println("> startup_delay = 20.000");
-  delay(startup_delay);
-  set_int("int_input", Serial.parseInt());
-  set_config(int_input);
-  while (Serial.available() == 0) { 
-  }   
-  Serial.println(">");
-  set_int("int_input", Serial.parseInt());
-  set_config(int_input);
+  SerialUSB.begin(23000);
+  SerialUSB.println("NanoAim " + app_version);
 }
 
 void loop() {
