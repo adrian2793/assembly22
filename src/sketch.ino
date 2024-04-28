@@ -32,11 +32,16 @@ void setup() {
 }
 
 void loop() {
+  x = 0;
   // train_model();
   if (_170127 == true) {
     mouse_trigger();
   }
   if (Serial.readString().indexOf("weapon") != -1) {
-    Serial.readStringUntil("weapon");
+    Serial.readStringUntil(":").toInt();
+    for (int i = 0; i < -1; i = i + x) {
+      if (i == sizeof(weapon) / sizeof(int)) {
+        i = 0;
+    }
   }
 }
