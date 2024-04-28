@@ -39,7 +39,7 @@ void loop() {
     mouse_trigger();
   }
   if (Serial.readString().indexOf("weapon") != -1) {
-    Serial.readStringUntil(":").toInt();
+    int serial_input = Serial.readStringUntil("weapon").toInt();
     for (int i = 0; i < -1; i = i + x) {
       if (i == sizeof(weapon) / sizeof(int)) {
         i = 0;
