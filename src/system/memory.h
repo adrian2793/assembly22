@@ -4,30 +4,42 @@
 
 class weapon {
   public:
-    weapon(int inaccuracy, int ammunition, int damage, int recoil_amount, int recoil_variance, int recoil_angle_variance, int smoothness = 0);
-}
+    weapon(float inaccuracy, float ammunition, float damage, float recoil_amount, float recoil_variance, float recoil_angle_variance);
+    float _inaccuracy;
+    float _ammunition;
+    float _damage;
+    float _recoil_amount;
+    float _recoil_variance;
+    float _recoil_angle_variance;
+};
 
-weapon::weapon(int inaccuracy, int ammunition, int damage, int recoil_amount, int recoil_variance, int recoil_angle_variance, int smoothness = 0) {
-  this->damage = this->damage / this->ammunition;
-  this->smoothness = recoil_amount / recoil_angle_variance;
+weapon::weapon(float inaccuracy, float ammunition, float damage, float recoil_amount, float recoil_variance, float recoil_angle_variance) {
+  // int this->damage = this->damage / this->ammunition;
+  // int this->smoothness = recoil_amount / recoil_angle_variance;
+  _inaccuracy = inaccuracy;
+  _ammunition = ammunition;
+  _damage = damage;
+  _recoil_amount = recoil_amount;
+  _recoil_variance = recoil_variance;
+  _recoil_angle_variance = recoil_angle_variance;
 }
 
 // Player
 
 class player {
   public:
-    player(int position_x, int position_y, int position_z, int team = 0, bool visible = false);
-}
+    player(float position_x, float position_y, float position_z, int team, bool visible);
+};
 
-player::player(int position_x, int position_y, int position_z, int team = 0, bool visible = false) {
+player::player(float position_x, float position_y, float position_z, int team, bool visible) {
 }
 
 // Map
 
 class map {
   public:
-    map(int position_marks_x, int position_marks_y, int position_marks_z);
-}
+    map(float position_marks_x, float position_marks_y, float position_marks_z);
+};
 
-map::map(int position_marks_x, int position_marks_y, int position_marks_z) {
+map::map(float position_marks_x, float position_marks_y, float position_marks_z) {
 }
