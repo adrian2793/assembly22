@@ -18,16 +18,18 @@ weapon weapon[5] = {
 
 // Players
 
-player player1(0, 0, 0);
-player player2(0, 0, 0);
-player player3(0, 0, 0);
-player player4(0, 0, 0);
-player player5(0, 0, 0);
+player player[10] = {
+  player player1(0, 0, 0),
+  player player2(0, 0, 0),
+  player player3(0, 0, 0),
+  player player4(0, 0, 0),
+  player player5(0, 0, 0),
 
-player player6(0, 0, 0, 1);
-player player7(0, 0, 0, 1);
-player player8(0, 0, 0, 1);
-player player9(0, 0, 0, 1);
-player player10(0, 0, 0, 1);
+  player player6(0, 0, 0, 1),
+  player player7(0, 0, 0, 1),
+  player player8(0, 0, 0, 1),
+  player player9(0, 0, 0, 1),
+  player player10(0, 0, 0, 1)
+};
 
 // Maps
