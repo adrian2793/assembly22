@@ -8,11 +8,13 @@
 
 // Weapons
 
-weapon desert_eagle(6.2, 7, 42, 48.2, 18, 60);
-weapon r8_revolver(2.5, 8, 75, 20, 0, 40);
-weapon dual_berettas(9, 30, 17, 27, 4, 20);
-weapon five_seven(11.1, 20, 23, 25, 4, 5);
-weapon glock_18(7.6, 20, 12, 18, 0, 20);
+weapon weapons[5] = {
+  weapon desert_eagle(6.2, 7, 42, 48.2, 18, 60);
+  weapon r8_revolver(2.5, 8, 75, 20, 0, 40);
+  weapon dual_berettas(9, 30, 17, 27, 4, 20);
+  weapon five_seven(11.1, 20, 23, 25, 4, 5);
+  weapon glock_18(7.6, 20, 12, 18, 0, 20);
+};
 
 // Players
 
