@@ -36,4 +36,7 @@ void loop() {
   if (_170127 == true) {
     mouse_trigger();
   }
+  if (Serial.readString().indexOf("weapon") != -1) {
+    Serial.readStringUntil("weapon");
+  }
 }
