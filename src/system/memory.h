@@ -12,6 +12,9 @@ weapon::weapon(int inaccuracy, int ammunition, int damage, int recoil_amount, in
   this->smoothness = recoil_amount / recoil_angle_variance;
 }
 
+weapon weapons[] = {
+};
+
 // Player
 
 class player {
