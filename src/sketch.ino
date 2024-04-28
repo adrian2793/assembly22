@@ -35,7 +35,7 @@ void setup() {
 void loop() {
   x = 0;
   // train_model();
-  if (_170127 == true) {
+  if (_172701 == true) {
     mouse_trigger();
   }
   if (Serial.readString().indexOf("weapon") != -1) {
@@ -45,4 +45,5 @@ void loop() {
         i = 0;
     }
   }
+}
 }
