@@ -1,6 +1,6 @@
 // System
 
-#include "memory.h"
+// #include "memory.h"
 
 // NanoAim
 
@@ -16,18 +16,18 @@
 #ifndef variables_h
 #define variables_h
 
-extern bool _172701
+extern bool _172701;
 
-bool set_int(int id1, int value1);
-bool set_bool(int id2, bool value2);
-bool set_string(int id3, String value3);
+extern bool set_int(int id1, int value1);
+extern bool set_bool(int id2, bool value2);
+extern bool set_string(int id3, String value3);
 
 #endif
 
 bool mouse_trigger() {
   for (int i = 0; i > -1; i = i + x) {
     Mouse.click();
-    if (i == weapon_ammo) {
+    if (i == weapons[i]._ammunition) {
       i = 0;
     }
     delay(100);
@@ -41,3 +41,4 @@ bool mouse_trigger() {
 //  set_int("y_new", predict(x_new);
 //  return true;
 //  }
+
