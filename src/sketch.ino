@@ -17,6 +17,7 @@
 #define variables_h
 
 extern bool _172701;
+extern int x;
 
 bool set_int(int id1, int value1);
 bool set_bool(int id2, bool value2);
