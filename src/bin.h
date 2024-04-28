@@ -16,18 +16,7 @@
 #ifndef variables_h
 #define variables_h
 
-extern int weapon_ammo;
-extern bool aim_lock;
-extern bool mouse_trigger_bool;
-extern int aim_x;
-extern int aim_y;
-extern int aim_wheel;
-extern int startup_delay;
-extern String string_input;
-extern int int_input;
-extern int x;
-extern float x_new;
-extern float y_new;
+extern bool _172701
 
 bool set_int(int id1, int value1);
 bool set_bool(int id2, bool value2);
