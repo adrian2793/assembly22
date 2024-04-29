@@ -2,7 +2,7 @@ section .text
    global _start
 	
 _start:
-   mov	edx,1
+   mov	edx,13
    mov	ecx,choice
    mov	ebx,1
    mov	eax,4
@@ -11,4 +11,4 @@ _start:
    int	0x80
 
 section .data
-  choice DB 'y'
+  choice DB 'UnknownCheats'
