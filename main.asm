@@ -3,7 +3,7 @@ section .text
 	
 _start:
    mov	edx,13
-   mov	ecx,choice
+   mov	ecx,message
    mov	ebx,1
    mov	eax,4
    int	0x80
@@ -11,4 +11,4 @@ _start:
    int	0x80
 
 section .data
-  choice DB 'UnknownCheats'
+  message DB 'UnknownCheats'
