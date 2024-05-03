@@ -27,9 +27,19 @@ weapon::weapon(float inaccuracy, float ammunition, float damage, float recoil_am
 class player {
   public:
     player(float position_x, float position_y, float position_z, int team, bool visible);
+    float _position_x;
+    float _position_y;
+    float _position_z;
+    int _team;
+    bool _visible;
 };
 
 player::player(float position_x, float position_y, float position_z, int team, bool visible) {
+  _position_x = position_x;
+  _position_y = position_y;
+  _position_z = position_z;
+  _team = team;
+  _visible = visible;
 }
 
 // Map
