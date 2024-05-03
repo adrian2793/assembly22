@@ -47,7 +47,13 @@ player::player(float position_x, float position_y, float position_z, int team, b
 class map {
   public:
     map(float position_marks_x, float position_marks_y, float position_marks_z);
+    float _position_marks_x;
+    float _position_marks_y;
+    float _position_marks_z;
 };
 
 map::map(float position_marks_x, float position_marks_y, float position_marks_z) {
+  _position_marks_x = position_marks_x;
+  _position_marks_y = position_marks_y;
+  _position_marks_z = position_marks_z;
 }
