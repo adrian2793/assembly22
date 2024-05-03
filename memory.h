@@ -1,0 +1,45 @@
+// System
+
+// Weapon
+
+class weapon {
+  public:
+    weapon(float inaccuracy, float ammunition, float damage, float recoil_amount, float recoil_variance, float recoil_angle_variance);
+    float _inaccuracy;
+    float _ammunition;
+    float _damage;
+    float _recoil_amount;
+    float _recoil_variance;
+    float _recoil_angle_variance;
+};
+
+weapon::weapon(float inaccuracy, float ammunition, float damage, float recoil_amount, float recoil_variance, float recoil_angle_variance) {
+  // int this->damage = this->damage / this->ammunition;
+  // int this->smoothness = recoil_amount / recoil_angle_variance;
+  _inaccuracy = inaccuracy;
+  _ammunition = ammunition;
+  _damage = damage;
+  _recoil_amount = recoil_amount;
+  _recoil_variance = recoil_variance;
+  _recoil_angle_variance = recoil_angle_variance;
+}
+
+// Player
+
+class player {
+  public:
+    player(float position_x, float position_y, float position_z, int team, bool visible);
+};
+
+player::player(float position_x, float position_y, float position_z, int team, bool visible) {
+}
+
+// Map
+
+class map {
+  public:
+    map(float position_marks_x, float position_marks_y, float position_marks_z);
+};
+
+map::map(float position_marks_x, float position_marks_y, float position_marks_z) {
+}
