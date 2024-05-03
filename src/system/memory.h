@@ -14,8 +14,6 @@ class weapon {
 };
 
 weapon::weapon(float inaccuracy, float ammunition, float damage, float recoil_amount, float recoil_variance, float recoil_angle_variance) {
-  // int this->damage = this->damage / this->ammunition;
-  // int this->smoothness = recoil_amount / recoil_angle_variance;
   _inaccuracy = inaccuracy;
   _ammunition = ammunition;
   _damage = damage;
